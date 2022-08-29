@@ -1,0 +1,105 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+div{
+    color:green
+}
+.username{
+    color:brown
+}
+.email{
+    color:blueviolet
+}
+tr:hover{
+    color: blue;
+    background-color: aqua;
+}
+tr{
+    color:green;
+}
+body{
+    background-image:url(C:\\Users\\NETZWERK\\Downloads\\janmashtami.jpg);
+    background-repeat:no-repeat;
+
+}
+  h1,h2{
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+h1{
+    padding:20px 20px 20px 20px;
+    border: 5px dotted red;
+    margin-left: 20p
+}
+.box{
+   border: 10px solid rgb(204, 17, 148);
+   height: 100px;
+   width:250px;
+}
+div > p{
+    color:blue;
+}
+.padding{
+    list-style-type: none;
+    margin:0;
+}
+.padding li {
+    float:left;
+}
+.padding li a{
+    display: block;
+    color: rebeccapurple;
+    text-align:center;
+    padding: 4px 16px;
+    text-decoration-color: antiquewhite;
+    text-decoration: none;
+}
+.padding li a:active{
+    background-color: aqua;
+}
+.padding li a:hover{
+    background-color: black#111;
+}
+div + p{
+    background-color: black;
+}
+div ~ p{
+    background-color: coral;
+}
+.fixed {
+    position: fixed;
+}
+.relative{
+    color:violet;
+    position:fixed;
+    bottom: 0%;
+}
+.image{
+    color:aliceblue;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.topleft{
+    color:bisque;
+    position: absolute;
+    top:0;
+    left:500px;
+}
+.topright {
+    color: red;
+    position:absolute;
+    top:0;
+    left: 500px;
+}
+    
+}
+
+
+           div:hover{
+                color: blue;
+                background-color: aqua;
+           }
